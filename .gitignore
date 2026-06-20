@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Uploads
+uploads/
+src/uploads/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/
+
+# Build output
+dist/
+build/
+
+ml-service/models/*.pklml-service/models/*.pkl
+mi-service/models/*.pkl
+ml-service/models/ats_model.pkl

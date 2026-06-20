@@ -19,6 +19,11 @@ const resumeSchema = new mongoose.Schema(
       certificationCount: { type: Number, default: 0 },
       metricsCount: { type: Number, default: 0 },
 
+      detectedSkills: {
+        type: [String],
+        default: [],
+      },
+
       githubPresent: { type: Boolean, default: false },
       linkedinPresent: { type: Boolean, default: false },
 
